@@ -13,41 +13,41 @@ selfish_pattern_for = {
 
 	army_professionalism_law_0 = { 
 		custom_tooltip = {
-			text = army_yes }
+			text = { army_yes }
 			always = yes 
 		}
-
+	}
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_yes }
+			text = { army_yes }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_2 }				
 			}
 		}
 	}
-	
+}
 
 selfish_pattern_against = {
 	icon = 9
 	pattern_type = against
-	
 
 	army_professionalism_law_2 = {	
 		custom_tooltip = {
-			text = army_no }
+			text = { army_no }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_1 }				
 			}
 		}
-	
+	}
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_no }
+			text = { army_no }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_0 }				
 			}
 		}
 	}
+}
 
 pragmatist_pattern_for = {
 	icon = 6
@@ -55,34 +55,35 @@ pragmatist_pattern_for = {
 	
 	army_professionalism_law_0 = { 
 		custom_tooltip = {
-			text = army_logical }
+			text = { army_logical }
 			always = yes 
 		}
-	
+	}
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_logical }
+			text = { army_logical }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_0 }				
 			}
 		}
-	
+	}
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_logical }
+			text = { army_logical }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_2 }				
 			}
 		}
-	
+	}
 	army_professionalism_law_2 = {	
 		custom_tooltip = {
-			text = army_logical }
+			text = { army_logical }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_1 }				
 			}
 		}
 	}
+}
 
 pragmatist_pattern_against = {
 	icon = 6
@@ -91,12 +92,13 @@ pragmatist_pattern_against = {
 
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_logical2 }
+			text = { army_logical2 }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_2 }				
 			}
 		}
 	}
+}
 
 glory_hound_pattern_for = {
 	icon = 7
@@ -104,18 +106,19 @@ glory_hound_pattern_for = {
 	
 	army_professionalism_law_0 = { 
 		custom_tooltip = {
-			text = army_yes }
+			text = { army_yes }
 			always = yes 
 		}
-	
+	}
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_yes }
+			text = { army_yes }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_2 }				
 			}
 		}
 	}
+}
 
 glory_hound_pattern_against = {
 	icon = 7
@@ -123,20 +126,21 @@ glory_hound_pattern_against = {
 	
 	army_professionalism_law_2 = {	
 		custom_tooltip = {
-			text = army_no }
+			text = { army_no }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_1 }				
 			}
 		}
-	
+	}
 	army_professionalism_law_1 = {	
 		custom_tooltip = {
-			text = army_no }
+			text = { army_no }
 			liege = {
 				primary_title = { has_law = army_professionalism_law_0 }				
 			}
 		}
 	}		
+}
 
 zealot_pattern_for = {
 	icon = 5
@@ -144,35 +148,27 @@ zealot_pattern_for = {
 	
 	army_professionalism_law_0 = { 
 		custom_tooltip = {
-			text = army_indifferent }
+			text = army_indifferent
 			always = yes 
 		}
-	
+	}
 	army_professionalism_law_1 = { 
 		custom_tooltip = {
-			text = army_indifferent }
+			text = army_indifferent
 			liege = {
 				primary_title = { has_law = army_professionalism_law_2 }
 			}
 		}				
-	
+	}
 	army_professionalism_law_2 = { 
 		custom_tooltip = {
-			text = army_indifferent }
+			text = army_indifferent
 			liege = {
 				primary_title = { has_law = army_professionalism_law_1 }
 			}
 		}				
-	
-	army_professionalism_law_1 = { 
-		custom_tooltip = {
-			text = army_indifferent }
-			liege = {
-				primary_title = { has_law = army_professionalism_law_0 }
-			}
-		}				
 	}
-
+}
 zealot_pattern_against = {
 	icon = 5
 	pattern_type = against
