@@ -169,7 +169,7 @@ mech_injured = {
 }
 destroyed_land = {
 	icon = 106
-	levy_reinforce_rate = -0.75
+	levy_reinforce_rate = -0.30
 	levy_size = -0.9
 	local_tax_modifier = -0.75
 	garrison_size = -0.5

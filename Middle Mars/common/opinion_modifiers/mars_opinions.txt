@@ -116,3 +116,17 @@ opinion_failed_negotiate = {
 	opinion = -15
 	months = 6
 }
+refused_concede = {
+	opinion = -50
+	months = 6
+}
+stole_election = {
+	opinion = -100
+	years = 20
+}
+election_thief = {
+	opinion = -100
+	crime = yes
+	enemy = yes
+	years = 15
+}

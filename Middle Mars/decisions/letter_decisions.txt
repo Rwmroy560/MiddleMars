@@ -24,6 +24,8 @@ targetted_decisions = {
 		
 		potential = {
 			is_adult = yes
+			prisoner = no
+			NOT = { trait = trait_slave }
 			FROM = {  
 				NOT = {
 					is_liege_of = ROOT 
